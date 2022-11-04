@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #202024;
+    font-family: 'Fira Code', monospace;
+}
+
+header {
+    padding: 20px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#back {
+    font-size: .9rem;
+    font-weight: 590;
+    color: white;
+    transition: all 0.3s ease-in;
+    padding: 5px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.hide {
+    display: none;
+}
+
+#back:hover {
+    background-color: white;
+    color: #202024;
+}
+
+#btn-search {
+    cursor: pointer;
+    transition: all 0.3s ease-in;
+    background-color: #202024;
+    color: white;
+}
+
+#input-book,
+#btn-search {
+    border-radius: 5px;
+    padding: 5px;
+    outline: none;
+    border: none;
+}
+
+#btn-search:hover {
+    color: #202024;
+    background-color: white;
+}
+
+#title {
+    margin: 10px 0;
+    color: white;
+    font-size: 3rem;
+}
+
+#books {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 10px;
+    gap: 20px;
+}
+
+.book-title {
+    text-align: center;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.book-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 10px;
+    width: 90%;
+}
+
+.book-link-buy {
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    color: white;
+}
+
+.book-author {
+    text-align: center;
+    color: white;
+    margin-bottom: 10px;
+}
+
+.book-description {
+    text-align: center;
+    color: white;
+}
+
+@media screen and (max-width: 900px) {
+
+    #books {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+}
+
+@media screen and (max-width: 600px) {
+
+    #books {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    header {
+        flex-direction: column;
+    }
+
+}
+
+@media screen and (max-width: 400px) {
+
+    #books {
+        grid-template-columns: 1fr;
+    }
+}
