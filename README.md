@@ -19,7 +19,7 @@
 
 
 ```bash
- [Books API] (https://nytbooksapi.netlify.app/)
+ [BooksAPI](https://nytbooksapi.netlify.app/)
 
 ```
 
