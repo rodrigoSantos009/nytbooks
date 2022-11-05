@@ -17,11 +17,9 @@
 
 ## Link para executar o projeto
 
+ [Books API](https://nytbooksapi.netlify.app/)
 
-```bash
- [BooksAPI](https://nytbooksapi.netlify.app/)
 
-```
 
 
 ### Tecnologias
