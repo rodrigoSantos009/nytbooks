@@ -19,9 +19,10 @@
 
 
 ```bash
- <>
+ [Books API] (https://nytbooksapi.netlify.app/)
 
 ```
+
 
 ### Tecnologias
 
